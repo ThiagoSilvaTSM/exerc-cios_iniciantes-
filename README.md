@@ -14,7 +14,7 @@ def classificar_jogador(media_gols):
     elif 0.4 <= media_gols < 0.8:
         return 'Bom desempenho'
     else:
-        return 'aposentado'
+        return 'treinar mais '
 
 def gerar_relatorio_jogador(nome,gols,partidas):
     media = calcular_media(gols,partidas)
